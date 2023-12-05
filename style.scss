@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Helvitica', sans-serif;
+    src: url(../fonts/helvetica.woff2);
+    font-style: normal;
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Helvitica-Bold', sans-serif;
+    src: url(../fonts/helvetica-bold.woff2);
+    font-style: normal;
+    font-weight: 700px;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: 'Helvitica', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #5C5C5E;
+}
+
+.header {
+    border-bottom: 1px solid #CACAD6;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    gap: 0 20px;
+}
+
+.menu__list {}
+
+.menu__link {}
+
+.logo {}
+
+.basket {
+    position: relative;
+
+    &__basket--on {
+        font-size: 11px;
+        width: 15px;
+        height: 15px;
+        background-color: #000;
+        border-radius: 50%;
+        color: #fff;
+        position: absolute;
+        display: flex;
+        line-height: 0;
+        align-items: center;
+        bottom: 0;
+        right: -2px;
+        justify-content: center;
+    }
+}
