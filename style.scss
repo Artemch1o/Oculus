@@ -326,6 +326,10 @@ body {
 
 }
 
+.buy-btn {
+    margin: 0 auto;
+}
+
 @keyframes line-text {
     from {
         transform: translateX(115%);
@@ -338,12 +342,41 @@ body {
     }
 }
 
-.buy-btn {
-    margin: 0 auto;
+
+
+.equipment {
+    margin-bottom: 100px;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    &__box-item {
+
+        &--one {
+            grid-row: 1/-1;
+        }
+    }
+
+    &__box-img {
+        margin-bottom: 10px;
+    }
+
+    &__box-text {}
+
+    &__box-title {
+        font-size: 36px;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        background-clip: text;
+        line-height: 50px;
+        -webkit-text-fill-color: transparent;
+    }
 }
-
-.buy-btn__text {}
-
-.buy-btn__price {}
-
-.buy__text {}
