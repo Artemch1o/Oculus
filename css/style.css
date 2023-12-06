@@ -338,7 +338,7 @@ body {
   margin-bottom: 30px;
 }
 
-.buy-btn {
+.buy-btn.center {
   margin: 0 auto;
 }
 
@@ -535,6 +535,7 @@ body {
 .contacts__text {
   font-size: 13px;
 }
+
 .form {
   margin-bottom: 10px;
   position: relative;
@@ -596,4 +597,21 @@ body {
   position: absolute;
   right: 0;
   bottom: 5px;
+}
+
+.footer {
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+  margin-bottom: 44px;
+  padding: 33px 0;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }/*# sourceMappingURL=style.css.map */

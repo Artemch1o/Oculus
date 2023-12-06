@@ -102,7 +102,6 @@ body {
     text-transform: uppercase;
     padding: 1px;
 
-
     &__text {
         color: #F6F4F5;
         padding: 20px 110px;
@@ -329,7 +328,9 @@ body {
 }
 
 .buy-btn {
-    margin: 0 auto;
+    &.center {
+        margin: 0 auto;
+    }
 }
 
 @keyframes line-text {
@@ -504,7 +505,6 @@ body {
         font-size: 13px;
     }
 
-    &__email {}
 }
 
 .form {
@@ -541,4 +541,17 @@ body {
         right: 0;
         bottom: 5px;
     }
+}
+
+.footer {
+    border-top: 1px solid #CACAD6;
+    border-bottom: 1px solid #CACAD6;
+    margin-bottom: 44px;
+    padding: 33px 0;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
 }
