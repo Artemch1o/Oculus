@@ -392,4 +392,40 @@ body {
           background-clip: text;
   line-height: 50px;
   -webkit-text-fill-color: transparent;
+}
+
+.promo {
+  margin-bottom: 100px;
+}
+.promo__inner {
+  background-image: url(../images/promo.jpg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+.promo__btn {
+  font-weight: 700;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC10D8), to(rgba(80, 0, 250, 0.93)));
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

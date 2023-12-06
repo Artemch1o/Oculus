@@ -369,8 +369,6 @@ body {
         margin-bottom: 10px;
     }
 
-    &__box-text {}
-
     &__box-title {
         font-size: 36px;
         text-transform: uppercase;
@@ -379,4 +377,38 @@ body {
         line-height: 50px;
         -webkit-text-fill-color: transparent;
     }
+}
+
+.promo {
+    margin-bottom: 100px;
+
+
+    &__inner {
+        background-image: url(../images/promo.jpg);
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        position: relative;
+    }
+
+    &__btn {
+        font-weight: 700;
+        color: #fff;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+    }
+
 }
